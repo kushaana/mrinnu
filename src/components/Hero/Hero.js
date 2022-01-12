@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div className="wrapper">
       <Heading text="Happy Birthday Mrinal !!!" arc={120} radius={400} />
-      <img src={mrinal} alt={"King mrinal"} />
+      <img className="king" src={mrinal} alt={"King mrinal"} />
     </div>
   );
 }

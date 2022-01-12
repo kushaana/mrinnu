@@ -32,7 +32,7 @@
   height: 350px;
   overflow: hidden;
   transform-origin: left;
-  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.1),
     30px 0 50px rgba(0, 0, 0, 0.4);
   transition: 0.6s;
 }
@@ -141,8 +141,9 @@ p {
   color: #333;
 }
 
-img {
+.display {
   width: 200px;
+  max-height: 300px;
 }
 
 .name {
