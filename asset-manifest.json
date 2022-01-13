@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/mrinnu/static/css/main.f95b13f5.css",
-    "main.js": "/mrinnu/static/js/main.01ead22d.js",
+    "main.css": "/mrinnu/static/css/main.ae79c9b6.css",
+    "main.js": "/mrinnu/static/js/main.64553187.js",
     "static/js/787.2793af99.chunk.js": "/mrinnu/static/js/787.2793af99.chunk.js",
-    "static/media/nothing.mp3": "/mrinnu/static/media/nothing.8f60d89c348fa8fa37e0.mp3",
-    "static/media/gif.gif": "/mrinnu/static/media/gif.595c3f7f42faee1601ef.gif",
+    "static/media/sri.mp3": "/mrinnu/static/media/sri.331d90f4dc7ccb15dfa3.mp3",
+    "static/media/ishika.mp3": "/mrinnu/static/media/ishika.a9d5ff3bfb5bde17673e.mp3",
+    "static/media/baddo.mp3": "/mrinnu/static/media/baddo.9e45aec19d3c5f52a8d5.mp3",
+    "static/media/sam.mp3": "/mrinnu/static/media/sam.c05b99692bd152d30391.mp3",
+    "static/media/maria.mp3": "/mrinnu/static/media/maria.4ea41ef728d00bef6cc5.mp3",
+    "static/media/ridhi.gif": "/mrinnu/static/media/ridhi.fe4855b9a86a52f4659f.gif",
     "static/media/mrinal.png": "/mrinnu/static/media/mrinal.40eb84936f5760d12da2.png",
-    "static/media/balloon.jpg": "/mrinnu/static/media/balloon.35d6b371fee72ce9e826.jpg",
+    "static/media/sam.jpeg": "/mrinnu/static/media/sam.576ce73f83bf854f9ae0.jpeg",
+    "static/media/sri.jpg": "/mrinnu/static/media/sri.1eb573e568c57c1d3bb9.jpg",
+    "static/media/baddo.jpeg": "/mrinnu/static/media/baddo.517855a48fd0becb9d9c.jpeg",
+    "static/media/kas.jpeg": "/mrinnu/static/media/kas.1de4b6b84e4af885f320.jpeg",
+    "static/media/ishika.jpeg": "/mrinnu/static/media/ishika.9035eb748168bd52d57d.jpeg",
+    "static/media/maria.jpeg": "/mrinnu/static/media/maria.fa1831a576b468a31877.jpeg",
     "index.html": "/mrinnu/index.html",
-    "main.f95b13f5.css.map": "/mrinnu/static/css/main.f95b13f5.css.map",
-    "main.01ead22d.js.map": "/mrinnu/static/js/main.01ead22d.js.map",
+    "main.ae79c9b6.css.map": "/mrinnu/static/css/main.ae79c9b6.css.map",
+    "main.64553187.js.map": "/mrinnu/static/js/main.64553187.js.map",
     "787.2793af99.chunk.js.map": "/mrinnu/static/js/787.2793af99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f95b13f5.css",
-    "static/js/main.01ead22d.js"
+    "static/css/main.ae79c9b6.css",
+    "static/js/main.64553187.js"
   ]
 }
