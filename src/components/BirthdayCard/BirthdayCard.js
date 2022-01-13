@@ -2,7 +2,6 @@ import "./BirthdayCard.css";
 import * as React from "react";
 import { Slide, Dialog, Toolbar, IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import balloon from "../../assets/images/balloon.jpg";
 
 const Balloons = () => {
   return (
@@ -16,7 +15,7 @@ const Balloons = () => {
 };
 
 const CardFront = ({ display }) => {
-  return <div className="cardFront">{display || <Balloons />}</div>;
+  return <div className="cardFront">{display}</div>;
 };
 
 const CardInside = (props) => {
@@ -28,7 +27,7 @@ const CardInside = (props) => {
         {props.wish ||
           "Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true."}
       </p>
-      <p className="name">{props.name || "xxx"}</p>
+      <p className="name">{"xoxo"}</p>
     </div>
   );
 };
@@ -37,19 +36,26 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export const BirthdayCard = (props) => {
+export const BirthdayCard = ({
+  display,
+  greeting,
+  wish,
+  name,
+  canvaLink,
+  song,
+}) => {
   const [open, setOpen] = React.useState(false);
 
-  if (props.song) props.song.loop = true;
+  if (song) song.loop = true;
 
   const handleClickOpen = () => {
     setOpen(true);
-    props.song?.load();
-    props.song?.play();
+    song?.load();
+    song?.play();
   };
 
   const handleClose = () => {
-    props.song?.pause();
+    song?.pause();
     setOpen(false);
   };
 
@@ -58,14 +64,14 @@ export const BirthdayCard = (props) => {
       <div className="birthdayCard" onClick={handleClickOpen}>
         <CardFront
           display={
-            <img
-              className="display"
-              src={props.display ?? balloon}
-              alt={"balloon"}
-            />
+            display ? (
+              <img className="display" src={display} alt={"balloon"} />
+            ) : (
+              <Balloons />
+            )
           }
         />
-        <CardInside greeting={"HBD"} />
+        <CardInside greeting={greeting} wish={wish} name={name} />
       </div>
       <Dialog
         fullScreen
@@ -78,11 +84,7 @@ export const BirthdayCard = (props) => {
             <CloseIcon />
           </IconButton>
         </Toolbar>
-        <iframe
-          title="canva"
-          src="https://www.canva.com/design/DAE1Re49hxw/view?embed"
-          height={"100%"}
-        ></iframe>
+        <iframe title="canva" src={canvaLink} height={"100%"}></iframe>
       </Dialog>
     </>
   );

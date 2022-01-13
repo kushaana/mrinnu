@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Staatliches&display=swap");
+
 .birthdayCard {
   position: relative;
   width: 250px;
   height: 350px;
   cursor: pointer;
   transform-style: preserve-3d;
-  transform: perspective(2500px);
+  transform: perspective(2500px) rotateZ(0deg);
   transition: 1s;
 }
 
@@ -35,6 +38,7 @@
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.1),
     30px 0 50px rgba(0, 0, 0, 0.4);
   transition: 0.6s;
+  background-color: black;
 }
 
 .happy {
@@ -136,14 +140,14 @@
 }
 
 p {
-  font-family: "Brush Script MT", cursive;
+  font-family: "Staatliches";
+  font-size: larger;
   margin: 10px 30px;
   color: #333;
 }
 
 .display {
-  width: 200px;
-  max-height: 300px;
+  width: 100%;
 }
 
 .name {

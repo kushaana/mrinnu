@@ -22,7 +22,7 @@ export default class Confetti extends React.Component {
   makeShot = (angle, originX) => {
     this.animationInstance &&
       this.animationInstance({
-        particleCount: 6,
+        particleCount: 9,
         angle,
         spread: 70,
         origin: { x: originX },
@@ -77,7 +77,7 @@ export default class Confetti extends React.Component {
       <>
         {(() => {
           this.handlerClickStart();
-          setTimeout(this.handlerClickPause, 3000);
+          setTimeout(this.handlerClickPause, 4000);
         })()}
         <ReactCanvasConfetti
           refConfetti={this.getInstance}
