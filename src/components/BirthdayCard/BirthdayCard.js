@@ -43,6 +43,7 @@ export const BirthdayCard = ({
   name,
   canvaLink,
   song,
+  vid,
 }) => {
   const [open, setOpen] = React.useState(false);
 
@@ -84,7 +85,13 @@ export const BirthdayCard = ({
             <CloseIcon />
           </IconButton>
         </Toolbar>
-        <iframe title="canva" src={canvaLink} height={"100%"}></iframe>
+        {vid ? (
+          <video height="100%" controls autoPlay loop>
+            <source src={vid} type="video/mp4" />
+          </video>
+        ) : (
+          <iframe title="canva" src={canvaLink} height={"100%"}></iframe>
+        )}
       </Dialog>
     </>
   );
