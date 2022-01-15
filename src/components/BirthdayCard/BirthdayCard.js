@@ -22,12 +22,12 @@ const CardInside = (props) => {
   return (
     <div className="cardInside">
       <h3 className="back">{props.greeting || "HAPPY BIRTHDAY!"}</h3>
-      <p>{props.name || "Dear Mrinal"},</p>
+      <p>{props.name || "Dear Mrinal"}</p>
       <p>
         {props.wish ||
           "Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true."}
       </p>
-      <p className="name">{"xoxo"}</p>
+      <p className="name">{props.xoxo ? "xoxo" : ""}</p>
     </div>
   );
 };
@@ -43,7 +43,10 @@ export const BirthdayCard = ({
   name,
   canvaLink,
   song,
+  mainSong,
   vid,
+  xoxo,
+  openable,
 }) => {
   const [open, setOpen] = React.useState(false);
 
@@ -51,18 +54,25 @@ export const BirthdayCard = ({
 
   const handleClickOpen = () => {
     setOpen(true);
+    mainSong.pause();
     song?.load();
     song?.play();
   };
 
   const handleClose = () => {
+    mainSong.play();
     song?.pause();
     setOpen(false);
   };
 
   return (
     <>
-      <div className="birthdayCard" onClick={handleClickOpen}>
+      <div
+        className="birthdayCard"
+        onClick={() => {
+          if (openable) handleClickOpen();
+        }}
+      >
         <CardFront
           display={
             display ? (
@@ -72,7 +82,7 @@ export const BirthdayCard = ({
             )
           }
         />
-        <CardInside greeting={greeting} wish={wish} name={name} />
+        <CardInside greeting={greeting} wish={wish} name={name} xoxo={xoxo} />
       </div>
       <Dialog
         fullScreen
