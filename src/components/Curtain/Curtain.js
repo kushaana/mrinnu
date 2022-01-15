@@ -42,7 +42,7 @@ export const Curtain = ({ mainSong }) => {
           }, 3500);
         }}
       >
-        click to enter
+        click to enter your <del>spotify</del> birthday wrapped
       </div>
       <div id="scene">
         <div id="curtain">
