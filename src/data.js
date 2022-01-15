@@ -110,17 +110,22 @@ const data = [
     song: new Audio(require("./assets/sounds/nishat.mp3")),
   },
   {
+    display: require("./assets/images/kaustabh.jpeg"),
+    greeting: "Kaustabh",
+    wish: "Happy birthday thakur",
+    canvaLink: "https://www.canva.com/design/DAE1fvTBQmw/view?embed",
+    song: new Audio(require("./assets/sounds/kaustabh.mp3")),
+  },
+  {
     display: require("./assets/images/pranav.jpeg"),
     greeting: "Pranav",
     wish: "If you didn't exist, I probably would've been straight. Happy Birthday Jaanuuuu, mera Shona, mera Babu, mera bhosda",
     vid: require("./assets/images/pranav.mp4"),
   },
   {
-    display: require("./assets/images/kaustabh.jpeg"),
-    greeting: "Kaustabh",
-    wish: "Happy birthday thakur",
-    canvaLink: "https://www.canva.com/design/DAE1fvTBQmw/view?embed",
-    song: new Audio(require("./assets/sounds/kaustabh.mp3")),
+    display: require("./assets/images/karthik.jpeg"),
+    greeting: "Karthik Ram",
+    vid: require("./assets/images/karthik.mp4"),
   },
   {
     display: require("./assets/images/ritvik.jpeg"),
