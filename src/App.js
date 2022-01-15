@@ -1,7 +1,7 @@
 import "./App.css";
 import { Curtain } from "./components/Curtain/Curtain";
 
-const mainSong = new Audio(require("./assets/sounds/nothing.mp3"));
+const mainSong = new Audio(require("./assets/sounds/getyou.mp3"));
 mainSong.loop = true;
 
 function App() {
