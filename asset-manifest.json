@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mrinnu/static/css/main.260c5161.css",
-    "main.js": "/mrinnu/static/js/main.f507440d.js",
+    "main.js": "/mrinnu/static/js/main.bc1f6116.js",
     "static/js/787.2793af99.chunk.js": "/mrinnu/static/js/787.2793af99.chunk.js",
     "static/media/sri.mp3": "/mrinnu/static/media/sri.331d90f4dc7ccb15dfa3.mp3",
     "static/media/ishika.mp3": "/mrinnu/static/media/ishika.a9d5ff3bfb5bde17673e.mp3",
@@ -35,8 +35,8 @@
     "static/media/dheerja.jpeg": "/mrinnu/static/media/dheerja.cb18a95a0ba9cdd8ecd0.jpeg",
     "static/media/pranav.jpeg": "/mrinnu/static/media/pranav.e39adb6795f1c580cbe3.jpeg",
     "static/media/lj.jpeg": "/mrinnu/static/media/lj.970f1a40f2426f2b9e3a.jpeg",
-    "static/media/aradhya.jpeg": "/mrinnu/static/media/aradhya.f220fcce23ac50f8fbed.jpeg",
     "static/media/gayatri.jpeg": "/mrinnu/static/media/gayatri.29b812aade61e9c353e6.jpeg",
+    "static/media/aradhya.jpeg": "/mrinnu/static/media/aradhya.4dc70f288e7ff1c46512.jpeg",
     "static/media/kas.jpeg": "/mrinnu/static/media/kas.1de4b6b84e4af885f320.jpeg",
     "static/media/mridul.jpeg": "/mrinnu/static/media/mridul.c457664d3cd06ee43721.jpeg",
     "static/media/ishika.jpeg": "/mrinnu/static/media/ishika.9035eb748168bd52d57d.jpeg",
@@ -46,11 +46,11 @@
     "static/media/kush.png": "/mrinnu/static/media/kush.5ffe31288b3693cb8839.png",
     "index.html": "/mrinnu/index.html",
     "main.260c5161.css.map": "/mrinnu/static/css/main.260c5161.css.map",
-    "main.f507440d.js.map": "/mrinnu/static/js/main.f507440d.js.map",
+    "main.bc1f6116.js.map": "/mrinnu/static/js/main.bc1f6116.js.map",
     "787.2793af99.chunk.js.map": "/mrinnu/static/js/787.2793af99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.260c5161.css",
-    "static/js/main.f507440d.js"
+    "static/js/main.bc1f6116.js"
   ]
 }
